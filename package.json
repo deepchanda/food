@@ -5,6 +5,8 @@
   "scripts": {
     "run": "parcel index.html",
     "build": "postcss css/styles.css -o build/styles.css",
+    "build:css-current": "postcss 'frontend/src/*.css' -d public",
+  "build:css-works-for-me": "postcss frontend/src/*.css -d public"
     "test": "jest"
   },
   "author": "Deep Chanda",
