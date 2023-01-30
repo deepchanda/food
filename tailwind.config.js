@@ -17,7 +17,8 @@ module.exports = {
         'light-coral':'#FF7474',
         'charcoal':'#424242',
         'darkTangerine':'#FFB30E',
-        'light_grayish_orange':'#FEFAF1'
+        'light_grayish_orange':'#FEFAF1',
+        'dark_gray':'#212121'
         
       },
        boxShadow: {
