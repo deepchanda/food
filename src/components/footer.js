@@ -4,6 +4,7 @@ const Footer = ()=>{
         <div className='w-full py-10 bg-dark_gray'>
           {/* top */}
            {/* <div className='max-w-screen-3xl mx-auto px-4 flex flex-row text-white  pb-5 divide-x-2 divide-slate-300 mb-4'>
+
             ddd
            </div> */}
           {/* btm */}
