@@ -4,7 +4,7 @@
   "description": "Food delivary site",
   "scripts": {
     "run": "parcel index.html",
-    "build": "postcss css/styles.css -o build/style.css",
+    "build": "postcss css/style.css -o build/style.css",
     "test": "jest"
   },
   "author": "Deep Chanda",
