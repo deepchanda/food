@@ -3,4 +3,4 @@ node_modules
 dist
 .babelrc
 babel.config.js
-.postcssrc
+# .postcssrc
