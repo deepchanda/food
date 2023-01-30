@@ -19,6 +19,11 @@ background: -webkit-linear-gradient(top,  rgb(244,205,31) 0%,rgb(244,202,9) 50%,
 background: linear-gradient(to bottom,  rgb(244,205,31) 0%,rgb(244,202,9) 50%,rgb(241,181,22) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4cd1f', endColorstr='#f1b516',GradientType=0 );
 }
-.slider .lft{
-    
+/* .app{
+
+background: linear-gradient(261.24deg, #FFAE00 63.85%, #FF8A00 111.94%);
+height: 50px;
 }
+.mobapp{
+border-radius: 0% 0% 40% 40% / 25% 25% 35% 35%;
+} */

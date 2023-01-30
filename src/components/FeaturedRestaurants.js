@@ -97,14 +97,14 @@ const deals=[
 const FeaturedRestro= ()=>{
 return(
     <>
-      <div className="max-w-screen-3xl px-4 py-10 mx-auto ">
+      <div className="max-w-screen-3xl px-4 py-10 max-sm:px-1 mx-auto ">
                 <h2 className="text-4xl text-orange-600 font-bold text-center">Featured Restaurants</h2>
-                <div className="w-full flex flex-row mt-6 flex-wrap justify-between">
+                <div className="w-full flex flex-row max-sm:flex-col mt-6 flex-wrap justify-between">
                {deals.map((restrodeals)=>(
-<div className="basis-1/4 md:basis-1/4 px-2 mb-2 bg-white mb-4" id={restrodeals.id} key={restrodeals.id}>
+<div className="basis-1/4 max-sm:w-full px-2 mb-2 bg-white mb-4" id={restrodeals.id} key={restrodeals.id}>
             <div className="w-full mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl hover:shadow-xl">
                 <div className="md:shrink-0 relative overflow-hidden">
-                    <img className=" w-full object-contain" src={restrodeals.Image} alt=""/>
+                    <img className=" w-full object-contain max-sm:aspect-square" src={restrodeals.Image} alt=""/>
                    
                 </div>
     <div className="p-2 w-full">
