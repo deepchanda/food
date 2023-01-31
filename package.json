@@ -1,9 +1,9 @@
 {
   "name": "food",
   "version": "1.0.0",
-  "description": "Food delivary site",
+  "description": "Food App",
   "scripts": {
-    "run": "parcel index.html",
+    "start": "parcel index.html",
     "build": "npm run build",
     "test": "jest"
   },
