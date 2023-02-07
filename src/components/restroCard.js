@@ -1,7 +1,7 @@
 import React  from 'react';
 // import Productimg from "../assets/images/p1.png";
-import {Restrodata} from '../components/carddata';
-import {IMG_CDN_URL} from '../components/carddata';
+import {Restrodata} from '../Configdata';
+import {IMG_CDN_URL} from '../Configdata';
 // import { useContext } from "react";
 
  const RestroCard =()=>{
